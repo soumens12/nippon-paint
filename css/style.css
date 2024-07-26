@@ -4857,7 +4857,7 @@ body.admin-bar .header-area.style-7 {
   transition: all 0.5s ease-out;
 }
 .slider-area .single-slider .slider-image {
-  /* animation: MoveUpDown 2s linear infinite alternate; */
+  animation: MoveUpDown 2s linear infinite alternate;
   text-align: right;
 }
 .slider-area .single-slider .slider-image .slider-image-inner {
