@@ -3547,11 +3547,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     height: 100px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .header-menu-area .logo {
-    height: 80px;
-  }
-}
+
 .header-menu-area .logo .standard-logo img {
   transition: all 0.5s ease-out;
   max-width: 260px;
@@ -3564,6 +3560,32 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-menu-area .logo .retina-logo {
   display: none;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .header-menu-area .logo {
+    height: 80px;
+  }
+  .header-menu-area .logo .standard-logo
+  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-menu-area .logo .standard-logo img
+  {
+    max-width: 120px;
+    height: 100%;
+  }
+  .header-menu-area.sticky_menu .logo .sticky-logo
+  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-menu-area.sticky_menu .logo .sticky-logo img{
+    max-width: 120px;
+    height: 100%;
+  }
 }
 
 .main-menu ul {
